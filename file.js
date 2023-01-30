@@ -23,6 +23,9 @@ btnPlus.style.height = "100px";
 btnPlus.style.backgroundColor = "gray";
 btnPlus.style.fontSize = "40px";
 btnPlus.textContent = "+";
+btnPlus.onfocus = () => {
+    btnPlus.style.backgroundColor = "white"; 
+}
 
 
 btnMinus.style.width = "100px";
@@ -30,6 +33,9 @@ btnMinus.style.height = "100px";
 btnMinus.style.backgroundColor = "gray";
 btnMinus.style.fontSize = "40px";
 btnMinus.textContent = "-";
+btnMinus.onfocus = () => {
+    btnPlus.style.backgroundColor = "white"; 
+}
 
 
 btnContainer.appendChild(btnPlus);
