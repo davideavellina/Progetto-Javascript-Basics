@@ -26,7 +26,9 @@ btnPlus.textContent = "+";
 btnPlus.onfocus = () => {
     btnPlus.style.backgroundColor = "white"; 
 }
-
+btnPlus.onfocus = () => {
+    btnPlus.style.backgroundColor = " "; 
+}
 
 btnMinus.style.width = "100px";
 btnMinus.style.height = "100px";
@@ -36,7 +38,9 @@ btnMinus.textContent = "-";
 btnMinus.onfocus = () => {
     btnMinus.style.backgroundColor = "white"; 
 }
-
+btnMinus.onblur = () => {
+    btnMinus.style.backgroundColor = " "; 
+}
 
 btnContainer.appendChild(btnPlus);
 btnContainer.appendChild(btnMinus);
