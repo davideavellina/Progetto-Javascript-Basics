@@ -26,7 +26,7 @@ btnPlus.textContent = "+";
 btnPlus.onfocus = () => {
     btnPlus.style.backgroundColor = "white"; 
 }
-btnPlus.onfocus = () => {
+btnPlus.onblur = () => {
     btnPlus.style.backgroundColor = " "; 
 }
 
