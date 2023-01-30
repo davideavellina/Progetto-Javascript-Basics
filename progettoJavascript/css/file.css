@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container {
+    display: flex;
+    margin: 20vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.counterDisplay {
+    background-color: rgba(142, 143, 240, 0.795);
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    font-size: 40px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
