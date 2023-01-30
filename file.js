@@ -34,7 +34,7 @@ btnMinus.style.backgroundColor = "gray";
 btnMinus.style.fontSize = "40px";
 btnMinus.textContent = "-";
 btnMinus.onfocus = () => {
-    btnPlus.style.backgroundColor = "white"; 
+    btnMinus.style.backgroundColor = "white"; 
 }
 
 
