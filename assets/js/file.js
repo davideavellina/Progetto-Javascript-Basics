@@ -23,14 +23,24 @@ btnPlus.style.height = "100px";
 btnPlus.style.backgroundColor = "gray";
 btnPlus.style.fontSize = "40px";
 btnPlus.textContent = "+";
-
+btnPlus.onfocus = () => {
+    btnPlus.style.backgroundColor = "#C1C2A5"; 
+}
+btnPlus.onblur = () => {
+    btnPlus.style.backgroundColor = "gray"; 
+}
 
 btnMinus.style.width = "100px";
 btnMinus.style.height = "100px";
 btnMinus.style.backgroundColor = "gray";
 btnMinus.style.fontSize = "40px";
 btnMinus.textContent = "-";
-
+btnMinus.onfocus = () => {
+    btnMinus.style.backgroundColor = "#C1C2A5"; 
+}
+btnMinus.onblur = () => {
+    btnMinus.style.backgroundColor = "gray"; 
+}
 
 btnContainer.appendChild(btnPlus);
 btnContainer.appendChild(btnMinus);
