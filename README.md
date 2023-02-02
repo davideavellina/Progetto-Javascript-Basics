@@ -1,5 +1,8 @@
+# Basic Counter
 this is my first Javascript project, a simple counter application
-which you can try [there](https://davideavellina.github.io/Progetto-Javascript-Basics/)
+which you can try [there](https://davideavellina.github.io/Progetto-Javascript-Basics/).
+
+built with **Javascript**, **HTML** and **CSS**.
 
 ![counterImg](https://user-images.githubusercontent.com/112814875/215820473-703edd7e-7661-4f05-baa6-d6e8da933408.png)
 
